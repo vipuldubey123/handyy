@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: neurath;
+    src: url('/assets/fonts/NeurathTest-Regular-BF63e5b932534b2.otf');
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color:#999393; */
+    background-image: url(./laura-vinck-Hyu76loQLdk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: neurath
+}
+
+#left {
+
+    position: relative;
+    width: 40%;
+    height: 90%;
+    border: 4px solid #fff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* overflow: hidden; */
+
+
+}
+
+.input span {
+
+    display: inline-block;
+    background-color: #fff;
+    margin-bottom: 5px;
+    position: absolute;
+    padding: 0 10px;
+    transform: translate(30px, -10px);
+    font-size: 14px;
+    color: #607d8b;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+
+
+}
+
+#sell-page-close {
+    position: absolute;
+    z-index: 1000;
+    top: 1%;
+    right: 1%;
+}
+
+#sell-page-close a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.65vw;
+
+}
+
+#left img {
+
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 0;
+
+
+}
+
+#right {
+
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+
+}
+
+#right #formBox {
+
+    width: 60%;
+}
+
+#right #formBox h2 {
+
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: inline-block;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin-top: 2vw;
+}
+
+
+#right #formBox .input {
+
+    margin-bottom: 20px;
+}
+
+#right #formBox .input input {
+
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    border-radius: 10px;
+    border: 2px solid #848080;
+    background: transparent;
+}
+
+#right #formBox .input input:hover {
+
+    border: 2px solid #34A3A7;
+}
+
+#right #formBox .input .cl {
+
+    background-color: #34A3A7;
+    color: #fff;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+#right #formBox .input .cl:hover {
+
+    background-color: #669c9e;
+}
+
+#right #formBox .remember {
+
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#right #formBox .remember {
+
+    color: #607d8b;
+
+
+}
+
+#right #formBox .input p {
+
+    color: #607d8b;
+}
+
+#right #formBox .input p a {
+
+    color: #34A3A7;
+}
+
+.input .button button {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    border-radius: 10px;
+    background: transparent;
+}
+
+#card {
+
+
+    width: 25vw;
+    height: 15vw;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+    left: -10%;
+    z-index: 1000;
+    backdrop-filter: blur(40px);
+    border-radius: 25px;
+}
+
+#card h2 {
+
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+    padding: 3vw;
+}
+
+#card p {
+
+    font-size: 1.2vw;
+    color: #fff;
+    text-align: center;
+    padding: 0 3vw;
+    line-height: 2vw;
+}

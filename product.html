@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Handdy - product</title>
+</head>
+
+<body>
+
+<div id="products-page">
+    <div id="product-page-close" class="close-btn">
+
+        <a href="index.html"><i class="ri-close-line"></i></a>
+    </div>
+    <div id="product-card">
+        <div id="left">
+            <div class="pd-wishlist">
+                <i class="ri-heart-line"></i>
+                <p>Add to wishlist</p>
+            </div>
+            <div id="product-img">
+                <img src="./assets/images/bestselling/bell-decor.webp" alt="">
+            </div>
+        </div>
+        <div id="right">
+
+            <div class="product-name-rat">
+                <h2>Bells decor</h2>
+                <div class="rating">
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="rating-no">
+                        <h5>4.6/5.0</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-price">
+                <div class="discount">
+                    <p>30% off</p>
+                </div>
+                <div class="price">
+                    <h3>₹69.9</h3>
+                    <h4>₹89.5</h4>
+                </div>
+
+            </div>
+
+            <div class="product-desc">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, numquam! Perferendis enim
+                    sapiente, pariatur placeat itaque aliquid laudantium ullam odio?</p>
+            </div>
+
+            <div class="quantity">
+                <p>Quantity</p>
+                <div class="qty">
+                    <i id="dec" class="ri-subtract-line"></i>
+                    <p id="value">0</p>
+                    <i id="inc" class="ri-add-line"></i>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <a id="buy" href="">Buy now</a>
+                <a id="cart" href="">Add to cart <span><i class="ri-shopping-cart-fill"></i></span></a>
+            </div>
+
+            <div class="last">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti id facilis veritatis,
+                    magni minus qui quos at saepe laudantium.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    let counter = 0;
+
+        let minus = document.querySelector('#dec')
+        let plus = document.querySelector('#inc')
+        let value = document.querySelector('#value')
+
+        minus.addEventListener('click', function () {
+            if (counter > 0) {
+                counter--;
+
+                value.textContent = counter;
+            }
+            else {
+                value.textContent = counter;
+
+            }
+        })
+
+        plus.addEventListener('click', function () {
+            counter++;
+            value.textContent = counter;
+
+        })
+    
+
+
+</script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+        integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- letter js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"
+        integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- texilate js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+        integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,662 @@
+@media only screen and (max-width:500px) {
+
+    .moving-circle {
+        display: none;
+    }
+
+    .trend-prod .prod-card {
+        /* left: 5vw; */
+        top: 15vw;
+    }
+
+         .nav {
+            padding: 3VW;
+         }    
+
+    #main {
+
+        flex-direction: column;
+    }
+
+    #left {
+
+        display: none;
+
+    }
+
+    #right {
+
+        width: 90%;
+        /* border-radius: 50px; */
+    }
+
+    #right #formBox {
+
+        width: 80%;
+        border: #000;
+
+
+    }
+
+    #right #formBox h2 {
+        font-size: 5.5vw;
+        margin-top: 8vw;
+    }
+
+    #sell-page-close a {
+        font-size: 7vw;
+    }
+
+
+   
+
+    .part1 {
+        font-size: 5vw;
+    }
+
+    .nav .part2 a {
+        display: none;
+    }
+
+    .part2 input {
+        width: 35vw;
+        font-size: 2vw;
+    }
+
+    .part2 i {
+        font-size: 2vw;
+    }
+
+    .nav .part3 {
+        gap: 2vw;
+    }
+
+    .nav .part3 i {
+        font-size: 2.3vw;
+    }
+
+    .nav .part3 span {
+        font-size: 2.3vw;
+    }
+
+    .main-img img {
+        width: 160%;
+        left: -30%;
+    }
+
+    .txt h1 {
+        font-size: 20vw;
+    }
+
+    .txt .small-txt {
+        font-size: 6vw;
+        top: 55%;
+        left: 60%;
+        white-space: nowrap;
+    }
+
+    .small-txt h4 span {
+        font-size: 10vw;
+    }
+
+    .row h4 {
+        font-size: 10vw;
+    }
+
+    .scroll-txt {
+        top: 75%;
+    }
+
+    .container-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-text h2 {
+        font-size: 8vw;
+        gap: 5vw;
+        display: inline-block;
+    }
+
+    .container-text h2 span {
+        font-size: 12vw;
+    }
+
+    .container-text h2::after {
+        background-size: 14% 6px;
+        inset: auto -1vw 18.4vw 0;
+    }
+
+    .container-text p {
+        font-size: 4vw;
+        width: 80%;
+    }
+
+    .products-cont {
+        top: 65%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5vw;
+        padding: 1.5vw 6vw;
+    }
+
+    .prod-circle-txt {
+        gap: 3vw;
+    }
+
+    .prod-circle-txt p {
+        font-size: 3vw;
+        white-space: wrap;
+        text-align: center;
+        width: 70%;
+    }
+
+    .products-cont .circle {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    #page3 {
+        height: 127vh;
+    }
+
+    .trend-txt h2 {
+        font-size: 7vw;
+        gap: 3vw;
+    }
+
+    .trend-txt h2 span {
+        font-size: 12vw;
+    }
+
+    .trend-prod {
+        width: 100vw !important;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        place-items: center;
+    }
+
+    .trend-prod .prod-card {
+        height: 37vw;
+        width: 25vw;
+        border-radius: 5px;
+        margin: 1.7vw;
+    }
+
+    .prod-card .img {
+        height: 27vw;
+        width: 25vw;
+    }
+
+    .prod-card .img img {
+        height: 27vw;
+        width: 25vw;
+    }
+
+    .wishlist {
+        width: 5vw;
+    }
+
+    .desc-txt {
+        gap: 1vw;
+    }
+
+    .desc-txt .desc {
+        font-size: 1.6vw;
+        gap: .8vw;
+    }
+
+    .desc-txt .link a {
+        font-size: 1.5vw;
+    }
+
+    .bestSell-txt {
+        font-size: 5vw;
+    }
+
+    #page4 {
+        height: 75vh;
+    }
+
+    .bestSell-txt h2 {
+        gap: 2vw;
+    }
+
+    .bestSell-txt h2 span {
+        font-size: 10vw;
+    }
+
+    .best-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .best-menu .links {
+        display: initial;
+        top: 65%;
+        left: initial;
+        width: initial;
+        transform: initial;
+    }
+
+    .best-menu .links a {
+        font-size: 1.6vw;
+    }
+
+    .wish {
+        width: 4.5vw;
+    }
+
+    .bestSell-cards {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .bestSell-cards .img-cont {
+        border-radius: 5px;
+    }
+
+    #bestSellcards1 {
+        top: 15%;
+        left: 70%;
+        height: 27vw;
+        width: 36vw;
+    }
+
+
+
+
+    #bestSellcards2 {
+        height: 40vw;
+        width: 30vw;
+        left: 26%;
+        top: 15%;
+    }
+
+    #bestSellcards3 {
+        left: 74%;
+        top: 30%;
+        height: 35vw;
+        width: 42vw;
+    }
+
+    #bestSellcards4 {
+        left: 27%;
+        top: 35%;
+        height: 40vw;
+        width: 40vw;
+    }
+
+    #bestSellcards5 {
+        left: 28%;
+        top: 55%;
+        height: 35vw;
+        width: 40vw;
+    }
+
+
+    #bestSellcards6 {
+        left: 75%;
+        top: 50%;
+        height: 50vw;
+        width: 40vw;
+    }
+
+    .best-sell-text {
+        font-size: 5vw;
+    }
+
+    .best-sell-text h2 {
+        gap: 2vw;
+    }
+
+    .best-sell-text h2 span {
+        font-size: 12vw;
+    }
+
+    #page5 {
+        height: 110vh;
+    }
+
+    #page5 .cards {
+        height: initial;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+
+    #top-sell-cards1 {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    #top-sell-cards2 {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    #top-sell-cards3 {
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .parallax-circle {
+        height: 100vh;
+    }
+
+    footer .footer-cover-parallax {
+        height: 100vh;
+    }
+
+    .footer-content {
+        gap: initial;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: initial;
+        left: -5vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter {
+        gap: initial;
+    }
+
+    .newsletter h5 {
+        font-size: 1.5vw;
+    }
+
+    .newsletter p {
+        font-size: 6vw;
+        line-height: initial;
+    }
+
+    .newsletter .input {
+        padding: 5vw 1vw;
+
+    }
+
+    .newsletter .input input {
+        font-size: 1.6vw;
+    }
+
+    .newsletter .input span {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .newsletter .input span i {
+        font-size: 1.5vw;
+    }
+
+    .contacts {
+        top: initial;
+        left: -1.5vw;
+    }
+
+    .contacts h5 {
+        font-size: 1.3vw;
+    }
+
+    .contacts a {
+        font-size: 3vw;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        padding-top: initial;
+        border-top: none !important;
+    }
+
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 40vw;
+        align-items: center;
+        position: relative;
+        top: 8vh;
+    }
+
+    .footer-links a {
+        align-content: center;
+        font-size: 1.5vw;
+        align-self: center;
+        text-align: center;
+    }
+
+    .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        top: -5vh;
+        border-top: 1px solid rgb(69, 68, 68);
+        width: 40vw;
+        padding-top: 4vw;
+    }
+
+    .footer-socials p {
+        font-size: 1.6vw;
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    .footer-socials a {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .footer-socials a i {
+        font-size: 2vw;
+    }
+
+    .footer-language {
+        display: flex;
+        align-items: center;
+        margin-top: 2vh;
+        gap: 5vw;
+    }
+
+    .footer-bottom a {
+        font-size: 1.5vw;
+    }
+
+
+
+    .emoji {
+        display: none;
+    }
+
+
+
+    /* account page responsive  */
+
+    .container {
+        width: 95vw;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+        white-space: nowrap;
+    }
+
+
+    .social-container {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .form-container span {
+        font-size: 2.6vw;
+        white-space: nowrap;
+        margin-bottom: 2vw;
+    }
+
+    .form-container input {
+        padding: 1.5vw 1.9vw;
+        margin: 2vw 0;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    .form-container button {
+        white-space: nowrap;
+        font-size: 2.5vw;
+        padding: 2vw 3 vw;
+    }
+
+
+    .overlay-panel h6 {
+        font-size: 3.5vw;
+        display: none;
+    }
+
+
+
+    .overlay-container {
+        width: 50vw;
+    }
+
+    .sign-in-container {
+        width: 48vw;
+    }
+
+    .sign-up-container {
+        width: 48vw;
+    }
+
+    .overlay-panel p {
+        font-size: 3vw;
+        width: 90%;
+        line-height: initial;
+        letter-spacing: initial;
+    }
+
+    .overlay button {
+        white-space: nowrap;
+    }
+
+    .form-container a {
+        font-size: 2.5vw;
+        white-space: nowrap;
+    }
+
+
+    #products-page {
+        flex-direction: column;
+
+    }
+
+
+    #product-card {
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    #left {
+        height: 40%;
+    }
+
+    #right {
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .discount p {
+        font-size: 1.8vw;
+    }
+
+    #left #product-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pd-wishlist {
+        position: absolute;
+        left: 10%;
+        z-index: 99;
+        width: 6%;
+    }
+
+    #product-page-close a i {
+        font-size: 5vw !important;
+    }
+
+    .pd-wishlist:hover {
+        width: 25vw;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+
+    .pd-wishlist i {
+        font-size: 4vw;
+    }
+
+    .pd-wishlist p {
+        font-size: 2.5vw;
+    }
+
+    .product-name-rat h2 {
+        font-size: 5vw;
+    }
+
+    .rating .star i {
+        font-size: 3vw;
+    }
+
+    .rating-no {
+        font-size: 3vw;
+    }
+
+    .rating {
+        gap: 2vw;
+    }
+
+    .product-price {
+        font-size: 4vw;
+    }
+
+    .product-desc {
+        font-size: 3vw;
+    }
+
+    .quantity p {
+        font-size: 2.5vw;
+    }
+
+
+    .qty {
+        height: 3vh;
+        width: 23vw !important;
+    }
+
+    .qty a {
+        font-size: 2vw;
+    }
+
+    .action-buttons a {
+        height: 4vh;
+        width: 25vw;
+        font-size: 2.5vw;
+    }
+
+    .last p {
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+
+}
